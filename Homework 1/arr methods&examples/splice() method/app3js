@@ -1,0 +1,11 @@
+// Splice array method
+
+//Splice methodot moze i da insertne elementi bez da gi izbrise.
+let arr = ["Jas", "ucam", "JavaScript"];
+
+// od index 2
+// izbrisi 0
+// i insertni "objektno", "orientiran" and "jazik"
+arr.splice(2, 0, "objektno", "orientiran", "jazik");
+
+alert( arr ); // "Jas", "ucam", "objektno", "orientiran" "jazik", "JavaScript"
